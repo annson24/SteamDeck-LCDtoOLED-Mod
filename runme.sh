@@ -24,9 +24,9 @@ sudo cp -f "$splash_temp" "$univ_splash"
 
 # pull original video files
 mkdir "$mov_dir_temp"
-sudo cp -f "$mov_dir_orig/oled_startup.webm" "$mov_dir_temp/deck_startup.webm"
-sudo cp -f "$mov_dir_orig/oled-suspend-animation.webm" "$mov_dir_temp/deck-suspend-animation.webm"
-sudo cp -f "$mov_dir_orig/oled-suspend-animation-from-throbber.webm" "$mov_dir_temp/deck-suspend-animation-from-throbber.webm"
+sudo cp -f "$mov_dir_orig/movies/oled_startup.webm" "$mov_dir_temp/deck_startup.webm"
+sudo cp -f "$mov_dir_orig/movies/oled-suspend-animation.webm" "$mov_dir_temp/deck-suspend-animation.webm"
+sudo cp -f "$mov_dir_orig/movies/oled-suspend-animation-from-throbber.webm" "$mov_dir_temp/deck-suspend-animation-from-throbber.webm"
 
 # resize video files
 truncate --size=1840847 "$mov_dir_temp/deck_startup.webm"
