@@ -5,7 +5,7 @@ echo "https://github.com/annson24"
 
 # define paths
 
-# splash_orig="/usr/share/plymouth/themes/steamos/steamos-
+splash_orig="/usr/share/plymouth/themes/steamos/steamos-galileo.png
 splash_temp="steamos-jupiter.png"
 bgrt_logo="/esp/efi/steamos/steamos.png"
 univ_splash="/usr/share/plymouth/themes/steamos/steamos-jupiter.png"
