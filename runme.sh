@@ -12,7 +12,6 @@ splash_orig_oled="/usr/share/plymouth/themes/steamos/steamos-galileo.png"
 splash_orig_lcd="/usr/share/plymouth/themes/steamos/steamos-jupiter.png"
 splash_temp="$script_dir/steamos-jupiter.png"
 bgrt_logo="/esp/efi/steamos/steamos.png"
-univ_splash="/usr/share/plymouth/themes/steamos/steamos-jupiter.png"
 mov_dir_orig="/home/deck/.local/share/Steam/steamui"
 mov_dir_temp="$script_dir/movies"
 bak_dir="$script_dir/LCDtoOLEDModBackup"
@@ -59,7 +58,7 @@ sleep 1
 sudo cp -f "$splash_orig_oled" "$splash_temp"
 sudo cp -f "$splash_temp" "$bgrt_logo"
 truncate --size=17550 "$splash_temp"
-sudo cp -f "$splash_temp" "$univ_splash"
+sudo cp -f "$splash_temp" "$splash_orig_lcd"
 echo "Done!"
 
 # Boot & sleep video change
