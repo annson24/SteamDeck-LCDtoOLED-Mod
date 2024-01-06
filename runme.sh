@@ -31,19 +31,19 @@ fi
 if [ -e "$bak_dir/deck_startup.webm" ]; then
     : # File exists, do nothing
 else
-	sudo cp "$mov_dir_orig/movies/oled_startup.webm" "$bak_dir/deck_startup.webm"
+	sudo cp "$mov_dir_orig/movies/deck_startup.webm" "$bak_dir/deck_startup.webm"
 fi
 
 if [ -e "$bak_dir/deck-suspend-animation.webm" ]; then
     : # File exists, do nothing
 else
-	sudo cp "$mov_dir_orig/movies/oled-suspend-animation.webm" "$bak_dir/deck-suspend-animation.webm"
+	sudo cp "$mov_dir_orig/movies/deck-suspend-animation.webm" "$bak_dir/deck-suspend-animation.webm"
 fi
 
 if [ -e "$bak_dir/deck-suspend-animation-from-throbber.webm" ]; then
     : # File exists, do nothing
 else
-	sudo cp "$mov_dir_orig/movies/oled-suspend-animation-from-throbber.webm" "$bak_dir/deck-suspend-animation-from-throbber.webm"
+	sudo cp "$mov_dir_orig/movies/deck-suspend-animation-from-throbber.webm" "$bak_dir/deck-suspend-animation-from-throbber.webm"
 fi
 echo "Done!"
 
