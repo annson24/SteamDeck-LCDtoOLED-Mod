@@ -18,10 +18,12 @@ echo "Done!"
 echo "Restoring backups..."
 sleep 1
 if [ -d "$bak_dir" ]; then
+	sudo steamos-readonly disable
 	sudo rm "$bgrt_logo"
 	sudo cp -f "$bak_dir/steamos-jupiter.png" "$splash_orig_lcd"
 	sudo cp -rf "$bak_dir" "$mov_dir_orig/"
 	echo "Done!"
+ 	sudo steamos-readonly enable
 	sleep 2
 	clear
 	echo "LCD to OLED Mod Reverter by annson24"
