@@ -49,6 +49,7 @@ echo "Done!"
 
 echo
 echo "Initializing mod..."
+sudo steamos-readonly disable
 sleep 2
 echo
 
@@ -73,6 +74,7 @@ truncate --size=160008 "$mov_dir_temp/deck-suspend-animation.webm"
 truncate --size=323401 "$mov_dir_temp/deck-suspend-animation-from-throbber.webm"
 sudo cp -rf "$mov_dir_temp" "$mov_dir_orig/"
 echo "Done!"
+sudo steamos-readonly enable
 sleep 2
 clear
 echo "LCD to OLED Mod by annson24"
