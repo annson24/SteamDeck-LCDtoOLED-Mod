@@ -11,8 +11,14 @@ This will backup the original files in 'LCDtoOLEDModBackup' folder in the same d
 
 1. Download runme.sh
 2. Open terminal where runme.sh is located
-3. chmod +x runme.sh
-4. sudo ./runme.sh
+3. Execute:
+   ```cmd
+   chmod +x runme.sh
+   ```
+4. Execute:
+   ```cmd
+   sudo ./runme.sh
+   ```
 
 # How to revert changes
 (WARNING: Make sure you have the 'LCDtoOLEDModBackup' folder that runme.sh created when you did the mod.)
@@ -20,8 +26,14 @@ This will backup the original files in 'LCDtoOLEDModBackup' folder in the same d
 1. Download restore.sh
 2. Place it in the same directory where LCDtoOLEDModBackup is located. DO NOT PUT IT INSIDE LCDtoOLEDModBackup FOLDER!
 3. Open terminal where restore.sh is located
-4. chmod +x restore.sh
-5. sudo ./restore.sh
+4. Execute:
+   ```cmd
+   chmod +x restore.sh
+   ```
+5. Execute:
+   ```cmd
+   sudo ./restore.sh
+   ```
 
 # Screens
 Boot & Updating Splash
